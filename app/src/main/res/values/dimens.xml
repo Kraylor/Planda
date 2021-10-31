@@ -1,0 +1,7 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!-- LargeButton margin from screen edge -->
+    <dimen name="large_button_margin_from_edge">56dp</dimen>
+</resources>

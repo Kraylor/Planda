@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.CreateNewAccountActivity">
+
+    <ImageView
+        android:layout_width="790dp"
+        android:layout_height="958dp"
+        android:contentDescription="@string/guy_checks_phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.408"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632"
+        app:srcCompat="@drawable/img1" />
+
+    <TextView
+        android:id="@+id/createNewAccountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/create_your_new_account"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <EditText
+        android:id="@+id/createName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/name"
+        app:layout_constraintEnd_toEndOf="@+id/createNewAccountText"
+        app:layout_constraintStart_toStartOf="@+id/createNewAccountText"
+        app:layout_constraintTop_toBottomOf="@+id/createNewAccountText" />
+
+    <EditText
+        android:id="@+id/createEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/prompt_email"
+        app:layout_constraintEnd_toEndOf="@+id/createName"
+        app:layout_constraintStart_toStartOf="@+id/createNewAccountText"
+        app:layout_constraintTop_toBottomOf="@+id/createName"
+        android:autofillHints="@string/prompt_email" />
+
+    <EditText
+        android:id="@+id/createPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/prompt_password"
+        app:layout_constraintEnd_toEndOf="@+id/createEmail"
+        app:layout_constraintStart_toStartOf="@+id/createNewAccountText"
+        app:layout_constraintTop_toBottomOf="@+id/createEmail"
+        android:autofillHints="@string/prompt_password" />
+
+    <Button
+        android:id="@+id/createAccountButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/large_button_margin_from_edge"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="@dimen/large_button_margin_from_edge"
+        android:text="@string/create_free_account"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createPassword" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

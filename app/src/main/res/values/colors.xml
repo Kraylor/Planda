@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- My own colours (Adobe color wheel Complementary -->
+    <color name="main">#1ADDEB</color> <!-- C main color -->
+    <!-- B main color light -->
+    <color name="m_dark">#09949E</color> <!-- A main color dark -->
+    <color name="mc_dark">#9E4000</color> <!-- D main color complementary dark -->
+    <color name="mc_light">#EB6F1A</color> <!-- E main color complementary light -->
+
+    <!-- My own colours (Adobe color wheel Monochromatic -->
+    <color name="royal_blue">#246EE9</color> <!-- C main color -->
+    <!-- B main color light -->
+    <color name="dark_blue">#103269</color> <!-- A main color dark -->
+    <color name="dark_blue_grey">#2F4569</color> <!-- D main color complementary dark -->
+    <color name="blue_grey">#1B56B5</color> <!-- E main color complementary light -->
+
+
+</resources>
